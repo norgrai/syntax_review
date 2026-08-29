@@ -1,0 +1,176 @@
+id;model;include_size;include_training_data;training data size;dataset;causal/bidir;size;Avg. Performance;Ellipsis;Argument Structure;Determiner-Noun Agreement;Island Effects;Subject-Verb Agreement;Control/Raising;Anaphor Agreement;Irreg. Forms;Quantifiers;Binding;NPI Licensing;Filler-Gap
+52;Roberta;1;1;30B ~160GB;blimp;bidir;<1B;87;92;84;99;81;92;82;97;96;70;78;82;90
+120;Flan-t5 sm;0;0;;blimp;;<1B;62;;;;;;;;;;;;
+120;Flan-t5 lg;0;0;;blimp;;<1B;75;;;;;;;;;;;;
+120;Flan-t5 xl;0;0;;blimp;;1-7B;85;;;;;;;;;;;;
+120;text-curie-001;1;1;<800B;blimp;causal;1-7B;84;;;;;;;;;;;;
+120;text-davinci-002;1;1;<800B;blimp;causal;>7B;86;;;;;;;;;;;;
+120;text-davinci-003;1;1;<800B;blimp;causal;>7B;87;;;;;;;;;;;;
+121;Pythia 1B;1;1;207 B ~825GB;blimp;causal;1-7B;82;;;;;;;;;;;;
+121;Pythia 6.9B;1;1;207 B ~825GB;blimp;causal;1-7B;86;;;;;;;;;;;;
+121;OLMo 1B;1;1;3T;blimp;causal;1-7B;83;;;;;;;;;;;;
+121;OLMo 7B;1;1;2,5T;blimp;causal;1-7B;84;;;;;;;;;;;;
+121;Gemma 2B;1;1;2T;blimp;causal;1-7B;83;;;;;;;;;;;;
+121;Gemma 2B;1;1;6T;blimp;causal;1-7B;84;;;;;;;;;;;;
+121;Llama2 7B;1;1;2T;blimp;causal;1-7B;85;;;;;;;;;;;;
+121;Mistral 7B;1;1;unknown;blimp;causal;1-7B;85;;;;;;;;;;;;
+133;Transformer-XL;1;1;83M;blimp;bidir;<1B;68.7;77.2;69.5;83;45.8;76;71.5;94.1;78.2;69.3;74.7;55.2;64.9
+133;GPT-2;1;1;~40GB;blimp;causal;<1B;80.1;86.6;78.3;93.3;63.1;89;80.5;99.6;84.1;71.3;80.1;78.9;79
+134;Minibert 1M tokens;0;1;1M;blimp;bidir;<1B;60.33333333;55;60;62;49;54;59;68;78;64;58;55;62
+134;Minibert 10M;0;1;10M;blimp;bidir;<1B;73.66666667;85;70;88;51;77;69;88;88;60;72;71;65
+134;Minibert 100M;0;1;100M;blimp;bidir;<1B;79.41666667;90;76;91;62;85;76;94;91;62;75;77;74
+134;Minibert 1B;1;1;1B;blimp;bidir;<1B;82.75;91;78;94;65;89;78;98;93;65;78;81;83
+134;Roberta base (30b tokens);1;1;30B ~160GB;blimp;bidir;<1B;85.91666667;90;83;96;80;92;81;97;96;70;77;80;89
+178;GPT-2 xl;0;0;~40GB;blimp;causal;1-7B;;;;;;;;;;;;;
+180;Gpt2-medium (Salazar et al. (2020));1;1;~40GB;blimp;causal;<1B;82.6;86.3;83.4;96.3;71.7;88.3;83;99.4;94.9;74.1;77.8;74.7;81.3
+180;En-BERT;0;0;~3.3B;CoLA;bidir;<1B;;;;;;;;;;;;;
+180;XLM-R;0;0;~2.5TB;CoLA;bidir;<1B;;;;;;;;;;;;;
+180;It-BERT;0;0;;ItaCoLA;bidir;<1B;;;;;;;;;;;;;
+180;XLM-R;0;0;~2.5TB;ItaCoLA;bidir;<1B;;;;;;;;;;;;;
+180;Sw-BERT;0;0;;DaLAJ;bidir;<1B;;;;;;;;;;;;;
+180;XLM-R;0;0;~2.5TB;DaLAJ;bidir;<1B;;;;;;;;;;;;;
+192;Bert-base pre-train;1;1;~3.3B;blimp;bidir;<1B;76.83333333;80;73;99;57;80;73;90;96;64;72;70;68
+203;GPT2tiny ;1;1;~40GB;blimp;causal;<1B;54.42857143;63;55;;;64;39;;;53;50;57;
+204;BabyBERTa+AO-CHILDES;1;1;5M ~0.02GB;blimp;bidir;<1B;61.6;54.4;54.8;78.8;53;56;54.8;70.3;70.3;61.3;63.3;53.9;68.4
+204;BabyBERTa+Wikipedia-1 ;1;1;5M ~0.02GB;blimp;bidir;<1B;64.6;74.6;59.7;80;52.8;68.5;60.4;62.9;75.8;54.6;70.6;54.2;61.2
+204;BabyBERTa+concat;1;1;5M ~0.02GB;blimp;bidir;<1B;69.1;69.3;64.2;87.6;48.6;83.5;59.9;74.3;81.1;57.9;72.3;60.2;70.5
+204;RoBERTa-base+AO-CHILDES;1;1;5M ~0.02GB;blimp;bidir;<1B;62.1;65.1;57.1;59.2;56.2;57.6;59.2;65;69.7;67.6;57.1;58.5;55.7
+204;RoBERTa-base warstadt;1;1;10M+;blimp;bidir;<1B;80.863636;85.3;69.9;91.4;52.1;77;70;88.6;85.5;58.2;72.6;71.9;67
+204;RoBERTa-base+30B Liu etal 2019;1;1;30B ~160GB;blimp;bidir;<1B;85.4;91.4;77.8;81.9;80.7;91.9;81.9;97.3;96.2;69.8;83.5;81;90.1
+206;Roberta base;1;1;30B ~160GB;blimp;bidir;<1B;84;;;;;;;;;;;;
+206;Roberta large;1;1;30B ~160GB;blimp;bidir;<1B;85;;;;;;;;;;;;
+206;Gpt2;1;1;10B ~40GB;blimp;causal;<1B;79;;;;;;;;;;;;
+206;Gpt2-medium;1;1;~40GB;blimp;causal;<1B;80;;;;;;;;;;;;
+206;OPT (125M);1;1;180B;blimp;causal;<1B;78;;;;;;;;;;;;
+206;OPT (350M);1;1;180B;blimp;causal;<1B;81;;;;;;;;;;;;
+209;BERT’s uncased base (24hBERT);1;1;n.a;blimp;bidir;<1B;82.31666667;91;76.8;92.5;74.5;91;76;92.5;92.5;72.5;76;75;77.5
+209;RoBERTa;0;0;n.a;cola;bidir;<1B;;;;;;;;;;;;;
+327;DecOnly∼27M;0;1;n.a;blimp;causal;<1B;61;;;;;;;;;;;;
+327;DecOnly∼70M;0;1;n.a;blimp;causal;<1B;65;;;;;;;;;;;;
+327;DecOnly∼203M;1;1;n.a;blimp;causal;<1B;66;;;;;;;;;;;;
+332;GPT2;0;0;10B ~40GB;blimp;causal;<1B;na;;;;;;;;;;;;
+332;OPT (6.7B);0;0;180B;blimp;causal;1-7B;na;;;;;;;;;;;;
+355;Pythia 160M;1;1;825GB;blimp;causal;<1B;71;72.4;72.1;86.8;54.7;74.5;72.7;83.3;87.9;70.4;74;51.7;70.5
+372;Pythia 14M;1;1;825GB;blimp;causal;<1B;65.8;;;;;;;;;;;;
+372;Pythia 70M;1;1;825GB;blimp;causal;<1B;73.3;;;;;;;;;;;;
+372;Pythia 160M;1;1;825GB;blimp;causal;<1B;77.5;;;;;;;;;;;;
+372;Pythia 410M;1;1;825GB;blimp;causal;<1B;81.6;;;;;;;;;;;;
+372;Pythia 1B;1;1;825GB;blimp;causal;1-7B;82.2;;;;;;;;;;;;
+372;Pythia 1.4B;1;1;825GB;blimp;causal;1-7B;81.9;;;;;;;;;;;;
+372;GPT2, 85M BPE;1;1;100M;blimp;causal;<1B;77.8;;;;;;;;;;;;
+372;GPT2, 85M chatacter;1;1;100M;blimp;causal;<1B;77.4;;;;;;;;;;;;
+372;Llama 2.51M BPE;1;1;10M;blimp;causal;<1B;59.8;;;;;;;;;;;;
+372;Llama 7.77M BPE;1;1;10M;blimp;causal;<1B;64.6;;;;;;;;;;;;
+372;Llama 30.03M BPE;1;1;10M;blimp;causal;<1B;64.6;;;;;;;;;;;;
+410;Transformer-Micro (30M parameters);1;1;52B;blimp;causal;<1B;77.8;;;;;;;;;;;;
+410;Transformer-Mini (70M parameters);1;1;52B;blimp;causal;<1B;80.4;;;;;;;;;;;;
+410;"Transformer-Small
+(Gpt-2 small like, 124M";1;1;52B;blimp;causal;<1B;81.9;;;;;;;;;;;;
+419;Transformers;1;1;83M;blimp;causal;<1B;71.9;;;;;;;;;;;64.08;
+435;OPT 125M (100M words);1;1;100M;blimp;causal;<1B;75.3;80.5;73.8;93.1;57.8;77.3;72.2;94.9;80.8;74.5;73.8;51.6;73.6
+435;RoBERTa base (100M words);1;1;100 M;blimp;bidir;<1B;75.1;83.8;71.3;93.1;54.5;76.2;67.1;89.5;89.6;70.3;71;66.3;68
+435;LTG-BERTbase (100M words);1;1;100 M;blimp;bidir;<1B;85.8;91.7;79.5;95.4;79.8;91.2;80.3;96.1;94.5;72.2;77.1;84.4;87.8
+435;ELC-BERTbase (100M words);1;1;100 M;blimp;bidir;<1B;85.3;91.7;81.2;96;83.9;90.8;79.2;92.8;93.6;70.2;74;83.5;87.1
+435;OPT 125M (10M words);1;1;10 M;blimp;;<1B;62.6;62;70.6;78.5;48.6;56.9;66.5;63.8;67.5;59.6;67.1;46.7;63.8
+435;RoBERTabase (10M words);1;1;10 M;blimp;bidir;<1B;69.5;76.4;67.1;90.8;39.9;65.4;67.9;81.5;87.4;70.5;67.3;55.9;63.5
+435;ELC-BERTsmall (10M words);1;1;10 M;blimp;bidir;<1B;80.5;87.4;72.5;93.4;67.9;88.7;72.6;89.5;91;75.2;68.1;79.4;80.6
+438;opt-125m;1;1;10 M;blimp;causal;<1B;63.2;;;;;;;;;;;;
+438;RoBERTa;1;1;30B ;blimp;bidir;<1B;69.8;;;;;;;;;;;;
+438;small RoBERTa;1;1;30B ;blimp;bidir;<1B;71.4;;;;;;;;;;;;
+471;104 LLMs;0;0;;blimp;;;;;;;;;;;;;;;
+471;104 LLMs;0;0;;blimp: SLING;;;;;;;;;;;;;;;
+471;104 LLMs;0;0;;blimp: RUBLiMP;;;;;;;;;;;;;;;
+515;12 models;0;0;;blimp;;;na;;;;;;;;;;;;
+516;SMOLLM2-360M on 250B tokens;1;1;250B;blimp;causal;<1B;81;;;;;;;;;;;;
+516;SMOLLM2-360M 500B;1;1;500B;blimp;causal;<1B;80;;;;;;;;;;;;
+516;SMOLLM2-360M 4T tokens;1;1;4T ;blimp;causal;<1B;81;;;;;;;;;;;;
+522;GPT-2 (2-layer) 1M;0;1;1M;blimp;causal;<1B;50;;;;;;;;;;;;
+522;GPT-2 (2-layer) 4M;0;1;4M;blimp;causal;<1B;52;;;;;;;;;;;;
+522;GPT-2 (2-layer) 16M;0;1;16M;blimp;causal;<1B;55;;;;;;;;;;;;
+522;GPT-2 (2-layer) 64M;0;1;64M;blimp;causal;<1B;58;;;;;;;;;;;;
+522;GPT-2 (2-layer) 256M;0;1;256M;blimp;causal;<1B;63;;;;;;;;;;;;
+522;GPT-2 (2-layer) 1B;0;1;1B;blimp;causal;<1B;66;;;;;;;;;;;;
+522;GPT-2 (2-layer) 2B;0;1;2B;blimp;causal;<1B;67;;;;;;;;;;;;
+522;GPT-2 (2-layer) 3B;0;1;3B;blimp;causal;<1B;67;;;;;;;;;;;;
+522;GPT-2 (2-layer) 4B;0;1;4B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;GPT-2 (2-layer) 5B;0;1;5B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;GPT-2 (2-layer) 6B;0;1;6B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;GPT-2 (2-layer) 7B;0;1;7B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;GPT-2 (2-layer) 8B;0;1;8B;blimp;causal;<1B;69;;;;;;;;;;;;
+522;GPT-2 (2-layer) 9B;0;1;9B;blimp;causal;<1B;69;;;;;;;;;;;;
+522;GPT-2 (2-layer) 10B;1;1;10B;blimp;causal;<1B;69;;;;;;;;;;;;
+522;Pythia-70M 1M;0;1;1M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-70M 4M;0;1;4M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-70M 16M;0;1;16M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-70M 64M;0;1;64M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-70M 256M;0;1;256M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-70M 1B;0;1;1B;blimp;causal;<1B;55;;;;;;;;;;;;
+522;Pythia-70M 2B;0;1;2B;blimp;causal;<1B;60;;;;;;;;;;;;
+522;Pythia-70M 3B;0;1;3B;blimp;causal;<1B;63;;;;;;;;;;;;
+522;Pythia-70M 4B;0;1;4B;blimp;causal;<1B;65;;;;;;;;;;;;
+522;Pythia-70M 5B;0;1;5B;blimp;causal;<1B;66;;;;;;;;;;;;
+522;Pythia-70M 6B;0;1;6B;blimp;causal;<1B;67;;;;;;;;;;;;
+522;Pythia-70M 7B;0;1;7B;blimp;causal;<1B;67;;;;;;;;;;;;
+522;Pythia-70M 8B;0;1;8B;blimp;causal;<1B;67;;;;;;;;;;;;
+522;Pythia-70M 9B;0;1;9B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;Pythia-70M 10B;1;1;10B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;Pythia-160M 1M;0;1;1M;blimp;causal;<1B;52;;;;;;;;;;;;
+522;Pythia-160M 4M;0;1;4M;blimp;causal;<1B;53;;;;;;;;;;;;
+522;Pythia-160M 16M;0;1;16M;blimp;causal;<1B;55;;;;;;;;;;;;
+522;Pythia-160M 64M;0;1;64M;blimp;causal;<1B;54;;;;;;;;;;;;
+522;Pythia-160M 256M;0;1;256M;blimp;causal;<1B;51;;;;;;;;;;;;
+522;Pythia-160M 1B;0;1;1B;blimp;causal;<1B;57;;;;;;;;;;;;
+522;Pythia-160M 2B;0;1;2B;blimp;causal;<1B;62;;;;;;;;;;;;
+522;Pythia-160M 3B;0;1;3B;blimp;causal;<1B;66;;;;;;;;;;;;
+522;Pythia-160M 4B;0;1;4B;blimp;causal;<1B;69;;;;;;;;;;;;
+522;Pythia-160M 5B;0;1;5B;blimp;causal;<1B;69;;;;;;;;;;;;
+522;Pythia-160M 6B;0;1;6B;blimp;causal;<1B;70;;;;;;;;;;;;
+522;Pythia-160M 7B;0;1;7B;blimp;causal;<1B;71;;;;;;;;;;;;
+522;Pythia-160M 8B;0;1;8B;blimp;causal;<1B;71;;;;;;;;;;;;
+522;Pythia-160M 9B;0;1;9B;blimp;causal;<1B;72;;;;;;;;;;;;
+522;Pythia-160M 10B;1;1;10B;blimp;causal;<1B;73;;;;;;;;;;;;
+522;Pythia-410M 1M;0;1;1M;blimp;causal;<1B;52;;;;;;;;;;;;
+522;Pythia-410M 4M;0;1;4M;blimp;causal;<1B;53;;;;;;;;;;;;
+522;Pythia-410M 16M;0;1;16M;blimp;causal;<1B;56;;;;;;;;;;;;
+522;Pythia-410M 64M;0;1;64M;blimp;causal;<1B;55;;;;;;;;;;;;
+522;Pythia-410M 256M;0;1;256M;blimp;causal;<1B;53;;;;;;;;;;;;
+522;Pythia-410M 1B;0;1;1B;blimp;causal;<1B;59;;;;;;;;;;;;
+522;Pythia-410M 2B;0;1;2B;blimp;causal;<1B;65;;;;;;;;;;;;
+522;Pythia-410M 3B;0;1;3B;blimp;causal;<1B;68;;;;;;;;;;;;
+522;Pythia-410M 4B;0;1;4B;blimp;causal;<1B;70;;;;;;;;;;;;
+522;Pythia-410M 5B;0;1;5B;blimp;causal;<1B;71;;;;;;;;;;;;
+522;Pythia-410M 6B;0;1;6B;blimp;causal;<1B;72;;;;;;;;;;;;
+522;Pythia-410M 7B;0;1;7B;blimp;causal;<1B;73;;;;;;;;;;;;
+522;Pythia-410M 8B;0;1;8B;blimp;causal;<1B;73;;;;;;;;;;;;
+522;Pythia-410M 9B;0;1;9B;blimp;causal;<1B;74;;;;;;;;;;;;
+522;Pythia-410M 10B;1;1;10B;blimp;causal;<1B;75;;;;;;;;;;;;
+539;gpt2-small;0;0;~40GB;blimp;causal;<1B;;;;;;;;;;;;;
+539;pythia;0;0;825GB;blimp;causal;1-7B;;;;;;;;;;;;;
+586;Gpt2-medium;1;1;~40GB;blimp;causal;<1B;82.6;86.3;83.4;96.3;71.7;88.3;83;99.4;94.9;74.1;77.8;74.7;81.3
+586;BERT base;1;1;~3.3B;blimp;bidir;<1B;84.2;89.4;80;97.6;73.6;92.4;79.6;97;96.5;71.2;82.3;84.7;83.1
+586;BERT large;1;1;~3.3B;blimp;bidir;<1B;84.8;86.4;80.7;97.6;77;91.9;82.7;97.2;92.8;72.8;82;83.4;84.3
+586;Roberta base ;1;1;30B ~160GB;blimp;bidir;<1B;85.4;91.4;83.5;97;80.7;91.9;81.9;97.3;96.2;69.8;77.8;81;90.1
+586;Roberta large ;1;1;30B ~160GB;blimp;bidir;<1B;86.5;90.8;84.6;96.8;83.4;91.4;84.1;97.8;96.8;70.2;79.1;85.5;88.9
+623;Llama-3 ;1;1;~15 T;blimp;causal;>7B;73.6;;;;;;;;;;;;
+623;Llama-3-Inst.;1;1;~15 T;blimp;causal;>7B;88.9;;;;;;;;;;;;
+623;Mixtral;1;1;n.a;blimp;causal;>7B;84.1;;;;;;;;;;;;
+623;Mixtral-Inst. ;1;1;n.a;blimp;causal;>7B;84;;;;;;;;;;;;
+623;Qwen2-57B-A14B;1;1;~7T;blimp;causal;>7B;89;;;;;;;;;;;;
+623;Qwen2-Inst;1;1;~7T;blimp;causal;>7B;86.8;;;;;;;;;;;;
+623;Llama-3 ;0;0;;climp;causal;>7B;85.7;;;;;;;;;;;;
+623;Llama-3-Inst.;0;0;;climp;causal;>7B;82.9;;;;;;;;;;;;
+623;Mixtral;0;0;;climp;causal;>7B;87.4;;;;;;;;;;;;
+623;Mixtral-Inst. ;0;0;;climp;causal;>7B;86.8;;;;;;;;;;;;
+623;Qwen2-57B-A14B;0;0;;climp;causal;>7B;87.9;;;;;;;;;;;;
+623;Qwen2-Inst;0;0;;climp;causal;>7B;86.2;;;;;;;;;;;;
+634;Llama 2;1;1;~2T;blimp;causal;<1B;84;;;;;;;;;;;;
+634;RoBERTa-Base;1;1;30B ~160GB;blimp;bidir;<1B;87;;;;;;;;;;;;
+634;OPT-125M (strict);1;1;10M;blimp;causal;<1B;75;;;;;;;;;;;;
+634;OPT-125M (s-small);1;1;100M;blimp;causal;<1B;63;;;;;;;;;;;;
+635;Llama3;0;0;;MultiBLiMP accuracy ;causal;>7B;;;;;;;;;;;;;
+635;Aya;0;0;;MultiBLiMP accuracy ;causal;;;;;;;;;;;;;;
+635;Gemma3;0;0;;MultiBLiMP accuracy ;causal;;;;;;;;;;;;;;
+635;Olmo2;0;0;;MultiBLiMP accuracy ;causal;;;;;;;;;;;;;;
+635;Qwen3;0;0;;MultiBLiMP accuracy ;causal;;;;;;;;;;;;;;
+635;EuroLLm;0;0;;MultiBLiMP accuracy ;causal;;;;;;;;;;;;;;
+635;Goldfish;0;0;;MultiBLiMP accuracy ;causal;<1B;;;;;;;;;;;;;
